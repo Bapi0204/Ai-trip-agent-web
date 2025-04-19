@@ -16,18 +16,18 @@ export const selectTravelersList = [
     },
     {
         id:3,
-        title:'Family',
+        title:'Family & Friends',
         desc:'A group of fun loving adv',
         icon:'🏡',
         people:'3 to 5 people'
 
     },
-    {
-        id:4,
-        title:'Friends',
-        desc:'A bunch of thrill-seekers',
-        icon:'🧑‍🧑‍🧒‍🧒'
-    },
+    // {
+    //     id:4,
+    //     title:'Friends',
+    //     desc:'A bunch of thrill-seekers',
+    //     icon:'🧑‍🧑‍🧒‍🧒'
+    // },
   ]
 
   export const SelectbudgetOptions=[
