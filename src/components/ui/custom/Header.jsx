@@ -231,6 +231,12 @@ function Header() {
       <div className='flex items-center gap-3'>
         {user ? (
           <div className="flex items-center gap-3">
+             <a href='/exchange'>
+              <Button variant='outline' className='rounded-full'>Exchange Rate</Button>
+            </a>
+            <a href='/weather'>
+              <Button variant='outline' className='rounded-full'>Weather Forcast</Button>
+            </a>
             <a href='/create-trip'>
               <Button variant='outline' className='rounded-full'>+ Create Trip</Button>
             </a>

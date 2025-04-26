@@ -5,6 +5,9 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import Viewtrip from "./view-trip/[tripId]";
 import MyTrips from "./my-trips";
+import Weather from "./weather-forcast";
+import exchange_rate from "./exchange-rates";
+
 export const router = createBrowserRouter([
     {
         path:'/',
@@ -22,6 +25,14 @@ export const router = createBrowserRouter([
     {
         path:'/my-trips',
         Component:MyTrips
-    }        
+    }, 
+    {
+        path:'/weather',
+        Component:Weather
+    },
+    {
+        path:'/exchange',
+        Component:exchange_rate
+    }           
     
 ])
