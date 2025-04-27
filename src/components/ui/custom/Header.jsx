@@ -244,6 +244,10 @@ function Header() {
             <a href='/my-trips'>
             <Button variant='outline' className='rounded-full'>My Trip</Button>
             </a>
+
+            <a href='/contact'>
+            <Button variant='outline' className='rounded-full'>Contact</Button>
+            </a>
             <Popover>
               <PopoverTrigger className="cursor-pointer">
                 <img src={user?.picture} className='h-[35px] w-[35px] rounded-full' alt="User Avatar" />

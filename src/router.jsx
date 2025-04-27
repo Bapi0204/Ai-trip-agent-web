@@ -7,6 +7,7 @@ import Viewtrip from "./view-trip/[tripId]";
 import MyTrips from "./my-trips";
 import Weather from "./weather-forcast";
 import exchange_rate from "./exchange-rates";
+import ContactPage from "./contact-page";
 
 export const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
     {
         path:'/exchange',
         Component:exchange_rate
-    }           
+    },
+    {
+        path:'/contact',
+        Component:ContactPage
+    }            
     
 ])
